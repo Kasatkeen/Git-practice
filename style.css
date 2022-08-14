@@ -1,0 +1,90 @@
+body { background-color: #000;}
+
+.rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: #555;
+}
+
+div.GitIsBlock {
+    height: 510px;
+    position: relative
+}
+
+div.GitIsBlock h2 {
+    margin: 0;
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px
+}
+
+.Git {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 
+        0 0 7px #fffa,
+        0 0 10px #fffa,
+        0 0 21px #0fa,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    color: #fff;
+    text-shadow: 
+        0 0 7px #0fa,
+        0 0 10px #0fa,
+        0 0 21px #0fa,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    text-align: center;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #0fa;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px
+}
+
+.system {
+    color:#0fa;
+}
